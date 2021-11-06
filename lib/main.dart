@@ -26,19 +26,19 @@ class _MyAppState extends State<MyApp> {
     {
       'questionText': "Which country won the first ever football world cup??",
       'answers': [
-        {"text": "Jamie Vardy", 'score': 10},
-        {"text": "Jamie watson", 'score': 20},
-        {"text": "Jamie rick", 'score': 30},
-        {"text": "Jamie george", 'score': 40},
+        {"text": "Brazil", 'score': 10},
+        {"text": "Argentina", 'score': 20},
+        {"text": "spain", 'score': 30},
+        {"text": "france", 'score': 40},
       ],
     },
     {
       'questionText': "How many regulation strokes are there in swimming?",
       'answers': [
-        {"text": "Jamie Vardy", 'score': 10},
-        {"text": "Jamie watson", 'score': 20},
-        {"text": "Jamie rick", 'score': 30},
-        {"text": "Jamie george", 'score': 40},
+        {"text": "watson", 'score': 10},
+        {"text": "Jamie", 'score': 20},
+        {"text": "rick", 'score': 30},
+        {"text": "george", 'score': 40},
       ],
     },
     {
@@ -53,10 +53,10 @@ class _MyAppState extends State<MyApp> {
     {
       'questionText': "How many gold medals has Usain Bolt won?",
       'answers': [
-        {"text": "Jamie Vardy", 'score': 10},
-        {"text": "Jamie watson", 'score': 20},
-        {"text": "Jamie rick", 'score': 30},
-        {"text": "Jamie george", 'score': 40},
+        {"text": "2", 'score': 10},
+        {"text": "7", 'score': 20},
+        {"text": "5", 'score': 30},
+        {"text": "6", 'score': 40},
       ],
     },
     {
@@ -107,12 +107,12 @@ class _MyAppState extends State<MyApp> {
     },
     {
       'questionText':
-          "Who has won more tennis grand slam titles – Venus Williams or Serena Williams?",
+          "The Los Angeles Lakers and New York Knicks play which sport?",
       'answers': [
-        {"text": "Jamie Vardy", 'score': 10},
-        {"text": "Jamie watson", 'score': 20},
-        {"text": "Jamie rick", 'score': 30},
-        {"text": "Jamie george", 'score': 40},
+        {"text": "Football", 'score': 10},
+        {"text": "Hockey", 'score': 20},
+        {"text": "Cricket", 'score': 30},
+        {"text": "Basketball", 'score': 40},
       ],
     },
     {
@@ -155,9 +155,38 @@ class _MyAppState extends State<MyApp> {
       ],
     },
     {
-      'questionText': "The Chicago Cubs and Boston Red Sox play which sport?",
+      'questionText': "Where is the next Olympic Games set to take place?",
       'answers': [
         {"text": "Jamie Vardy", 'score': 10},
+        {"text": "Tokyo", 'score': 20},
+        {"text": "Jamie rick", 'score': 30},
+        {"text": "Jamie george", 'score': 40},
+      ],
+    },
+    {
+      'questionText': "What is the biggest capacity cricket ground in England?",
+      'answers': [
+        {"text": "Jamie Vardy", 'score': 10},
+        {"text": "Jamie watson", 'score': 20},
+        {"text": "Jamie rick", 'score': 30},
+        {"text": "Lord’s", 'score': 40},
+      ],
+    },
+    {
+      'questionText':
+          "Tiger Woods won his first major in over a decade at which 2019 tournament?",
+      'answers': [
+        {"text": "Jamie Vardy", 'score': 10},
+        {"text": "The Masters", 'score': 20},
+        {"text": "Jamie rick", 'score': 30},
+        {"text": "Jamie george", 'score': 40},
+      ],
+    },
+    {
+      'questionText':
+          "Which female tennis player has won the highest number of Grand Slams?",
+      'answers': [
+        {"text": "Margaret Court", 'score': 10},
         {"text": "Jamie watson", 'score': 20},
         {"text": "Jamie rick", 'score': 30},
         {"text": "Jamie george", 'score': 40},
@@ -165,36 +194,9 @@ class _MyAppState extends State<MyApp> {
     },
     {
       'questionText':
-          "Who was the top scorer in the 2019/20 Premier League season?",
+          "Jurgen Klopp began his manegeral career ayt which German club?",
       'answers': [
-        {"text": "Jamie Vardy", 'score': 10},
-        {"text": "Jamie watson", 'score': 20},
-        {"text": "Jamie rick", 'score': 30},
-        {"text": "Jamie george", 'score': 40},
-      ],
-    },
-    {
-      'questionText': "What international rugby team are known as the Pumas?",
-      'answers': [
-        {"text": "Jamie Vardy", 'score': 10},
-        {"text": "Jamie watson", 'score': 20},
-        {"text": "Jamie rick", 'score': 30},
-        {"text": "Jamie george", 'score': 40},
-      ],
-    },
-    {
-      'questionText': "Who is the Premier League’s all-time top scorer?",
-      'answers': [
-        {"text": "Jamie Vardy", 'score': 10},
-        {"text": "Jamie watson", 'score': 20},
-        {"text": "Jamie rick", 'score': 30},
-        {"text": "Jamie george", 'score': 40},
-      ],
-    },
-    {
-      'questionText': "Which course is The Masters golf tournament held?",
-      'answers': [
-        {"text": "Jamie Vardy", 'score': 10},
+        {"text": "Mainz 05", 'score': 10},
         {"text": "Jamie watson", 'score': 20},
         {"text": "Jamie rick", 'score': 30},
         {"text": "Jamie george", 'score': 40},

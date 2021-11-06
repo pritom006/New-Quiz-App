@@ -11,7 +11,9 @@ class Questions extends StatelessWidget {
       margin: EdgeInsets.all(30),
       child: Text(
         questionText,
-        style: TextStyle(color: Colors.blueAccent),
+        style: TextStyle(
+          fontSize: 28,
+        ),
         textAlign: TextAlign.center,
       ),
     );

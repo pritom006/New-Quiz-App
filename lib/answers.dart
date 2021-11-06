@@ -11,16 +11,10 @@ class Answers extends StatelessWidget {
     return Container(
       width: double.infinity,
       margin: EdgeInsets.all(10),
-
-      // ignore: deprecated_member_use
       child: RaisedButton(
-        child: Text(
-          answerText,
-          style: TextStyle(
-            color: Colors.blue,
-          ),
-          textAlign: TextAlign.center,
-        ),
+        color: Colors.blueAccent,
+        textColor: Colors.white,
+        child: Text(answerText),
         onPressed: selectHandler,
       ),
     );
